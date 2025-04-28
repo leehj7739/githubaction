@@ -21,3 +21,10 @@ jobs:
         uses: actions/checkout@v3
       - name: Say hello
         run: echo "Hello, Actions! 2"
+
+  terraform:
+    run-on: ubuntu-latest
+    steps:
+      - uses: hashicorp/setup-terraform@v3
+        with: terraform_version: "1.1.7"
+    - run: terraform init       
