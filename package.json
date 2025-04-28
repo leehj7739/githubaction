@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/leehj7739/githubaction/issues"
   },
-  "homepage": "https://github.com/leehj7739/githubaction#readme"
+  "homepage": "https://github.com/leehj7739/githubaction#readme",
+  "devDependencies": {
+    "esbuild": "^0.25.3",
+    "esbuild-css-modules-plugin": "^3.1.4"
+  }
 }
